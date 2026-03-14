@@ -1,5 +1,7 @@
 # GNU Stow
 
+[Stow Manual](https://www.gnu.org/software/stow/manual/)
+
 ## Layout
 
 Example layout:
