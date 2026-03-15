@@ -73,9 +73,9 @@ vim.api.nvim_create_user_command(
   'ToggleDiagnostic',
   function()
     if vim.diagnostic.is_enabled() then
-      vim.diagnostic.enable()
-    else
       vim.diagnostic.enable(false)
+    else
+      vim.diagnostic.enable()
     end
   end,
   {}
